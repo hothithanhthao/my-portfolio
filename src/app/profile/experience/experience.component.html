@@ -1,0 +1,17 @@
+<div class="experience-content" id="experiences">
+  <div class="left-part">
+    <h3 class="question">What's my background?</h3>
+    <div class="year">2018</div>
+    <div class="year">2020</div>
+  </div>
+  <div data-aos="fade-up" data-aos-duration="3000" class="right-part">
+    <ul>
+      <li *ngFor="let ex of exs">
+        <h2>{{ex.title}}</h2>
+        <h3>{{ex.company_name}} | {{ex.date}}</h3>
+        <div class="description">{{ex.description}}</div>
+      </li>
+    </ul>
+  </div>
+
+

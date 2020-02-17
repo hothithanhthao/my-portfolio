@@ -1,0 +1,7 @@
+<div class="contact_content" id="contact">
+    <p class="end-text">{{end}}</p>
+    <div class="email">{{email}}</div>
+    <div class="contact_text" *ngFor="let contact of contacts">  
+      <a href={{contact.url}}>{{contact.type}}</a>
+    </div>
+</div>

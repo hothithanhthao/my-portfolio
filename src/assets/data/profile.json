@@ -1,0 +1,39 @@
+{
+    "fullname":"Thao Ho",
+    "title": "Web and Mobile Development Student",
+    "resident": "Finland",
+    "email":"thao.ho@edu.turkuamk.fi",
+    "intro":"Hello! I'm Risa and I am studying Mobile and Web Development. I love working on new technology.",
+    "end":"Thank you for reading my porfolio. If you have any offered project, please contact me!",
+    "experiences" :[
+        {
+            "title":"Front-end Web Development Internship",
+            "company_name":"Roche Diagnostics GmbH",
+            "date": "10/2019-Present",
+            "description": "Doing connection between Camunda and Apex Oracle by RESTAPIs. Designing the front end app by using HTML, CSS, Javascript. Using database SQL and PL/SQL for the backend"
+            
+        },
+        {
+            "title":"Software Consultant Trainee",
+            "company_name":"Netcompany",
+            "date": "3/2019-7/2019",
+            "description":"Working with Web Front-End Development using Angular Typescript. Using Azure DevOps to manage project workflow"
+        },
+        {
+            "title":"Full-Stack Trainee",
+            "company_name":"Wortell",
+            "date": "9/2018-1/2019",
+            "description": "React Native, Javascript for Frontend and APIs. Using custom-vison from Microsoft and some libraries Flask from Python for Backend"
+        }
+    ],
+    "contact":[
+        {   "icon":"faLinkedin",
+            "type": "Linkedin",
+            "url":"https://www.linkedin.com/in/ho-thao-risa/"
+        },
+        {   "icon": "faGithub",
+            "type": "Github",
+            "url":"https://github.com/hothithanhthao"
+        }
+    ]
+}

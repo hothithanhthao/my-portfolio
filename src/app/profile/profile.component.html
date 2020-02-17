@@ -1,0 +1,12 @@
+<div class="body">
+    <app-header fullName={{Profile.fullname}} currentTitle={{Profile.title}}  currentResident={{Profile.resident}}></app-header>
+    <div class="page-content">
+        
+        <app-about intro={{Profile.intro}}></app-about>
+        <app-experience [exs]="exsList"></app-experience>
+        <app-skills></app-skills>
+        <app-contact email={{Profile.email}} end ={{Profile.end}} [contacts]="contactsList"></app-contact>
+    </div>
+</div>
+
+<ngx-spinner color="#f68f6f" size="medium" bdColor="#f6d860" type="line-scale-party"></ngx-spinner>

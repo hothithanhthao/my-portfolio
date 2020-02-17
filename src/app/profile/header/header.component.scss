@@ -1,0 +1,43 @@
+li {
+    list-style-type: none;
+    margin: 0 2rem;
+}
+a{
+    text-decoration: none;
+}
+.header-content{
+    width: 100%;
+    height: 90vh;
+}
+#navigation{
+    width: 100%;
+    margin: 30vh 0 5vh 0;
+    position: absolute;
+    text-align: center;
+}
+
+.navbar_nav{ 
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav_link{
+    font-family: 'TheHistoriaDemo', sans-serif;
+    font-size: 5rem;
+    padding: 1rem;
+    color: #3c1053;
+
+}
+.nav_link:hover{
+    background-image: linear-gradient(to top, #3A1C71 , #D76D77, #f7797d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.portfoli-block{
+    margin-top: 15px;
+    font-family: 'SpaceGrotesk';
+    font-size: 30px;
+    color: #410807;
+}
