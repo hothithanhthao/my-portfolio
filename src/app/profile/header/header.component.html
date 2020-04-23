@@ -18,7 +18,13 @@
       </ul>
        <fa-icon [icon]="faCode" size="3x" [spin]="true"></fa-icon>
        <div class="portfoli-block" #animeObject>{{fullName}} | {{currentTitle}} | {{currentResident}}</div>
-      
+       <a 
+        class="button-download"
+        href="javascript:void(0)" 
+        style="cursor:pointer"
+        (click)="downloadPdf('./assets/data/ThaoHo_Resume.pdf','myResume')">
+         My Resume PDF  <fa-icon [icon]="faArrowLeft" size="1x" ></fa-icon>
+      </a>
   </div>
   
 </div>

@@ -10,6 +10,7 @@ import { NgxSpinnerModule } from "ngx-spinner";
 import { ProfileComponent } from './profile.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
+
 @NgModule({
   declarations: [HeaderComponent, AboutComponent, ExperienceComponent, SkillsComponent, ContactComponent, ProfileComponent],
   imports: [
